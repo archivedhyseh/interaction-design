@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Updated Nav Bar</title>
+    <link href="./css/main.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/732f754b46.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/nav.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="nav-logo">
+        <a href="./index.html" title="Hjemmesiden for Rainy Days"
+          ><img src="./images/Rainy Days Logo.webp" alt="Rainy Days Logo"
+        /></a>
+      </div>
+      <nav class="nav-container">
+        <div class="nav-menu__upper">
+          <p class="title bold">Navigasjon</p>
+          <div class="nav-menu-button nav-menu-close">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+        </div>
+        <div class="nav-menu__right">
+          <div class="search-container">
+            <input type="text" placeholder="Søk" name="search" />
+            <div class="search-button">
+              <button type="submit" title="Send søk" aria-label="Send søk">
+                <i class="fa fa-search"></i>
+              </button>
+            </div>
+          </div>
+          <div class="nav-icons">
+            <i title="Søk her" aria-label="Søk her" class="fa fa-search"></i>
+            <a href="#" title="Min konto" aria-label="Min konto"
+              ><i class="fa-regular fa-user"></i
+            ></a>
+            <a href="#" title="Min handlekurv" aria-label="Min handlekurv"
+              ><i class="fa-regular fa-credit-card"></i
+            ></a>
+          </div>
+        </div>
+        <ul class="nav-list">
+          <li>
+            <a href="#" title="Hjem" aria-label="Hjem"
+              >Hjem<i class="fa-solid fa-angle-right"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#" title="Butikk" aria-label="Butikk"
+              >Butikk<i class="fa-solid fa-angle-right"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#" title="Om oss" aria-label="Om oss"
+              >Om<i class="fa-solid fa-angle-right"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#" title="Kontakt oss" aria-label="Kontakt oss"
+              >Kontakt<i class="fa-solid fa-angle-right"></i
+            ></a>
+          </li>
+          <hr />
+          <li class="nav-list-others">
+            <a href="#" title="Min konto" aria-label="Min konto"
+              >Min konto<i class="fa-solid fa-angle-right"></i
+            ></a>
+          </li>
+          <li class="nav-list-others">
+            <a href="#" title="Min handlekurv" aria-label="Min handlekurv"
+              >Min handlekurv<i class="fa-solid fa-angle-right"></i
+            ></a>
+          </li>
+          <li class="nav-list-others">
+            <a href="#" title="Trenger du hjelp?" aria-label="Trenger du hjelp?"
+              >Trenger du hjelp?<i class="fa-solid fa-angle-right"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+      <div class="nav-menu-button nav-menu-open">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <div class="hidden-box"></div>
+    </header>
+  </body>
+</html>
