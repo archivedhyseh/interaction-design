@@ -1,0 +1,135 @@
+.contact-container {
+  margin: 20px;
+}
+
+.contact-container-content {
+  max-width: 1274px;
+  margin: auto;
+}
+
+.flex-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.qna-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 626px;
+}
+
+.qna-container-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.answer-preview {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 490px;
+}
+
+.input-container {
+  height: 100%;
+  width: 100%;
+}
+
+.input-container-content {
+  height: 40px;
+  display: flex;
+}
+
+.input-container-content-main {
+  flex-grow: 1;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  background: #e0e0e0;
+  padding: 0 0.5rem;
+  border: none;
+  outline: none;
+}
+
+.select-container {
+  max-width: 490px;
+}
+
+.select-container-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #e0e0e0;
+  height: 40px;
+  padding: 0 0.5rem;
+}
+
+.textarea-container {
+  height: 100%;
+  width: 100%;
+}
+
+.textarea-container-content {
+  display: flex;
+  font-size: 1rem;
+  height: 120px;
+}
+
+.textarea-container-content-main {
+  flex-grow: 1;
+  font-size: 1rem;
+  background: #e0e0e0;
+  padding: 0.5rem 0.5rem;
+  border: none;
+  outline: none;
+}
+
+.textarea-container-content textarea {
+  resize: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+}
+
+.file-container {
+  max-width: 490px;
+}
+
+.file-container-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e0e0e0;
+  height: 40px;
+  padding: 0 0.5rem;
+}
+
+.contact-container input[type='submit'] {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 1rem;
+  border: none;
+  background-color: #000000;
+  color: white;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-container input:hover[type='submit'] {
+  background-color: #929292;
+  transition: 0.3s;
+}
