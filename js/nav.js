@@ -1,3 +1,4 @@
+let body = document.querySelector('body');
 let nav = document.querySelector('.nav-container');
 let hamburger = document.querySelectorAll('.nav-menu-button');
 
@@ -7,11 +8,11 @@ const toggleNavMenu = () => {
   if (!menuActive) {
     nav.classList.toggle('active');
     menuActive = true;
-    console.log(menuActive);
+    body.classList.toggle('no-scroll');
   } else {
     nav.classList.toggle('active');
     menuActive = false;
-    console.log(menuActive);
+    body.classList.toggle('no-scroll');
   }
 };
 
