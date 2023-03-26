@@ -203,6 +203,10 @@ a:visited {
     color: white;
     text-decoration: none;
   }
+
+  .nav-list a:hover {
+    text-decoration: underline;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
