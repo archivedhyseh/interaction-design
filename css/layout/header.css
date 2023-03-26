@@ -5,7 +5,7 @@ header {
   gap: 20px;
   background-color: #212121;
   padding: 20px;
-  min-width: 300px;
+  min-width: 320px;
 }
 
 a:link,
@@ -23,7 +23,7 @@ a:visited {
 
 .nav-container {
   display: none;
-  min-width: 300px;
+  min-width: 320px;
 }
 
 .nav-container.active {
