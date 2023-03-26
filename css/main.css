@@ -30,6 +30,10 @@ body {
   font-size: 1rem;
 }
 
+main {
+  min-width: 320px;
+}
+
 .title {
   font-size: 1.75rem;
 }
