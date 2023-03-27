@@ -25,6 +25,11 @@
   box-sizing: border-box;
 }
 
+html {
+  margin: 0;
+  overscroll-behavior: none;
+}
+
 body {
   display: flex;
   flex-direction: column;

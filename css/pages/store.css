@@ -1,6 +1,5 @@
 .store-container {
   margin: 20px;
-  overscroll-behavior: none;
 }
 
 .store-container-content {
@@ -9,7 +8,6 @@
   gap: 20px;
   max-width: 1274px;
   margin: auto;
-  overscroll-behavior: none;
 }
 
 .store-container-content hr {
@@ -21,7 +19,6 @@
   flex-direction: row;
   gap: 20px;
   overflow-x: auto;
-  overscroll-behavior: none;
 }
 
 .product-main {
