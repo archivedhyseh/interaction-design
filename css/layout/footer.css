@@ -16,6 +16,12 @@ footer {
   color: white;
 }
 
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .footer-content__1,
 .footer-content__2,
 .footer-content__3 {
